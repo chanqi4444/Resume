@@ -1,0 +1,238 @@
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+%\usepackage{times}
+
+\usepackage{palatino}
+%\linespread{1.05} % Palatino needs more leading (space between lines)
+
+\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage{xeCJK}
+
+\setCJKmainfont{SourceHanSansSC-Normal}
+\setmainfont{Palatino}
+
+\hypersetup{colorlinks, breaklinks, linkcolor=black, urlcolor=blue, anchorcolor=black, citecolor=black}
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+\def \Email {zaffrahn@gmail.com}
+\def \Name {WENTAO LIU}
+\def \Phone {(+86)182-0026-0891 }
+\def \Address {Sichuan University, Wangjiang Campus, Chengdu, China 610065}
+
+\def \HEADER {
+	\moveleft.5\hoffset\centerline{\LARGE \bf \Name} % Your name at the top
+	\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+	\moveleft.5\hoffset\centerline{\Address}
+	\moveleft.5\hoffset\centerline{\Phone \href{mailto:\Email}{\underline{\smash{\Email}}}}}
+
+\def \SICPlink {https://github.com/RahnX/SICP-Solution}
+\def \DesignOfComputerProgramsLink {https://github.com/RahnX/Design-of-Computer-Programs}
+\def \UnderstandingComputationLink {https://github.com/RahnX/Understanding-Computation}
+\def \AlgorithmsUnlockedLink {https://github.com/RahnX/Algorithms-Unlocked}
+\def \IntroToDataScienceLink {https://github.com/RahnX/Intro-to-Data-Science}
+\def \IntroToParallelComputingLink {https://github.com/RahnX/Intro-to-Parallel-Programming}
+\def \IntroToAlgorithmsLink {https://github.com/RahnX/Intro-to-Algorithms}
+
+\def \VindentProj {\vspace*{-1.5em}}
+\def \VindentMedia {\vspace*{-0.7em}}
+
+\def \OBJECTIVE {OBJECTIVE}
+\def \EDUCATION {EDUCATION}
+\def \MaterEDU {
+	{\sl M.S.}, Computer Science
+	\hspace*{\fill}
+	Sept. 2015 - expected Jun. 2018\\
+	School of Computer Science
+	\hspace*{\fill}
+	Sichuan University
+	}
+
+\def \BachelorEDU {
+	{\sl B.E.}, Software Engineering
+	\hspace*{\fill}
+	Sept. 2011 - Jun. 2015\\
+	School of Software Engineering
+	\hspace*{\fill}
+	Sichuan University
+	}
+
+\def \KNOWLEDGE {KNOWLEDGE}
+\def \DesignOfPrograms {Design of Programs}
+\def \SICPsolution {{\it Structure and Interpretation of Computer Programs} Solution}
+\def \DesignOfComputerPrograms {Design of Computer Programs, Udacity CS212}
+\def \Algorithm {Algorithm}
+\def \AlgorithmsUnlocked {{\it Algorithms Unlocked} Programs}
+\def \IntroToAlgorithms {Intro to Algorithms, Udacity CS215}
+\def \Other {Other}
+\def \UnderstandingComputation {{\it Understanding Computation} Programs}
+\def \IntroToDataScience {Intro to Data Science, Udacity UD359}
+
+
+\def \MEDIA {MEDIA}
+\def \LANGUAGE {LANGUAGE}
+\def \Chinese {
+		Chinese
+		\hspace*{\fill}
+		Native
+	}
+
+\def \English {
+	English
+	\hspace*{\fill}
+	TOEFL iBT 90 (R 28, L 22, S 20, W 20)
+	}
+
+\def \RESUME
+{
+\HEADER
+
+\begin{resume}
+
+\section{\EDUCATION}
+
+\MaterEDU
+\\
+
+\VindentProj
+\BachelorEDU
+
+\section{\KNOWLEDGE}
+
+{\bf \DesignOfPrograms}
+\\
+\SICPsolution
+\\
+(Racket)
+\hspace*{\fill}
+\href{\SICPlink}{\underline{\smash{\SICPlink}}}
+\\
+
+\VindentProj
+\DesignOfComputerPrograms
+\\
+(Python)
+\hspace*{\fill}
+\href{\DesignOfComputerProgramsLink}{\underline{\smash{\DesignOfComputerProgramsLink}}}\\
+
+{\bf \Algorithm}
+\\
+\AlgorithmsUnlocked
+\\
+(Python)
+\hspace*{\fill}
+\href{\AlgorithmsUnlockedLink}{\underline{\smash{\AlgorithmsUnlockedLink}}}\\
+
+\VindentProj
+\IntroToAlgorithms
+\\
+(Python)
+\hspace*{\fill}
+\href{\IntroToAlgorithmsLink}{\underline{\smash{\IntroToAlgorithmsLink}}}\\
+
+{\bf \Other}
+\\
+\UnderstandingComputation
+\\
+(Ruby)
+\hspace*{\fill}
+\href{\UnderstandingComputationLink}{\underline{\smash{\UnderstandingComputationLink}}}
+\\
+
+\VindentProj
+\IntroToDataScience
+\\
+(numpy, pandas, ggplot)
+\hspace*{\fill}
+\href{\IntroToDataScienceLink}{\underline{\smash{\IntroToDataScienceLink}}}\\
+
+
+\section{\MEDIA}
+\def \GitHub {https://github.com/RahnX}
+\def \StackOverflow {http://stackoverflow.com/users/3853711/rahnx}
+\def \Blog {https://rahnx.com}
+\def \LinkedIn {https://www.linkedin.com/in/rahnx}
+
+
+GitHub
+\hspace*{\fill}
+\href{\GitHub}{\underline{\smash{\GitHub}}}
+
+\VindentMedia
+StackOverflow
+\hspace*{\fill}
+\href{\StackOverflow}{\underline{\smash{\StackOverflow}}}
+
+\VindentMedia
+LinkedIn
+\hspace*{\fill}
+\href{\LinkedIn}{\underline{\smash{\LinkedIn}}}
+
+\section{\LANGUAGE}
+
+\Chinese
+
+\VindentMedia
+
+\English
+
+\end{resume}
+}
+
+\RESUME
+
+\newpage
+
+\def \Name {刘文韬}
+\def \Address {成都市，武侯区，四川大学，望江校区，610065}
+\def \OBJECTIVE {求职意向}
+\def \EDUCATION {教育背景}
+
+\def \MaterEDU {
+	计算机科学硕士
+	\hspace*{\fill}
+	2015年9月-（预计）2018年6月\\
+	计算机学院
+	\hspace*{\fill}
+	四川大学}
+
+\def \BachelorEDU {
+	软件工程学士
+	\hspace*{\fill}
+	2011年9月-2015年6月\\
+	软件学院
+	\hspace*{\fill}
+	四川大学}
+
+\def \KNOWLEDGE {专业知识}
+
+\def \DesignOfPrograms {程序设计}
+\def \SICPsolution {《计算机程序的构造与解释》习题}
+%\def \DesignOfComputerPrograms {Design of Computer Programs，优达学城 CS212}
+\def \Algorithm {算法}
+\def \AlgorithmsUnlocked {《算法基础：打开算法之门》习题}
+%\def \IntroToAlgorithms {Intro to Algorithms，优达学城 CS215}
+\def \Other {其他}
+\def \UnderstandingComputation {《计算的本质：深入剖析程序和计算机》习题}
+%\def \IntroToDataScience {Intro to Data Science，优达学城 UD359}
+
+\def \MEDIA {网络社区}
+\def \LANGUAGE {语言能力}
+\def \Chinese {
+		汉语
+		\hspace*{\fill}
+		母语
+	}
+
+\def \English {
+	英语
+	\hspace*{\fill}
+	托福 iBT 90 (读 28，听 22，说 20，写 20)
+	}
+
+\RESUME
+
+\end{document}
