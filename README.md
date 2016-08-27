@@ -1,5 +1,5 @@
 ###Usage
-TexStudio: `XeLaTeX`
+TeXstudio: `XeLaTeX`
 
 Main font: `Palatino`
 
