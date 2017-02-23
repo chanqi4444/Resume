@@ -4,7 +4,7 @@ TeXstudio: `XeLaTeX`
 Main font: `Palatino`
 
 ###Download
-[Resume-Wentao-Liu.pdf](https://github.com/WentaoZero/Resume/blob/master/Resume-Wentao-Liu.pdf)
+[Resume-Wentao-LIU.pdf](https://github.com/WentaoZero/Resume/blob/master/Resume-Wentao-LIU.pdf)
 
 ###Preview
-![Preview](Resume-Wentao-Liu.png)
+![Preview](Resume-Wentao-LIU.png)
