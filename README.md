@@ -1,7 +1,7 @@
 ###Usage
 TeXstudio: `XeLaTeX`
 
-Main font: `Palatino`
+Main font: `Adobe Garamond`
 
 ###Download
 [Resume-Wentao-LIU.pdf](https://github.com/WentaoZero/Resume/blob/master/Resume-Wentao-LIU.pdf)
