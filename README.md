@@ -1,7 +1,7 @@
 ###Usage
-TeXstudio: `XeLaTeX`
+Engine: `XeTex` or `LuaTex`
 
-Main font: `Linux Libertine`
+Font: `Linux Libertine`
 
 ###Preview
 [Resume-Wentao-LIU.pdf](https://github.com/WentaoZero/Resume/blob/master/Resume-Wentao-LIU.pdf)
