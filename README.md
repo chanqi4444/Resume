@@ -1,5 +1,5 @@
 ### Usage
-Engine: `XeTex` or `LuaTex`
+Engine: `XeTeX` or `LuaTeX`
 
 Font: `Linux Libertine`
 
