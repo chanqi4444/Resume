@@ -1,0 +1,114 @@
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont[Numbers=OldStyle]{Linux Libertine}
+%disable Linux Libertine Semibold
+\newfontfamily\fixedwidth{Courier}
+
+\def \Name  {Wentao Liu}
+\def \Phone {+86 182-0026-0891}
+\def \Email {wentao.liu.zero@gmail.com}
+
+\hypersetup{
+	colorlinks,
+	breaklinks,
+	linkcolor = black,
+	urlcolor  = blue,
+	anchorcolor = black,
+	citecolor   = black,
+	pdftitle  = {CV - \Name},
+	pdfauthor = {\Name}
+}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+\setlist[itemize]{leftmargin=*, label={-}, topsep=1pt}
+
+\begin{document}
+\sloppy
+
+\hspace*{-\sectionwidth}{\LARGE \scshape \Name}
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+{\vspace*{-1.2em}}
+\hspace*{-\sectionwidth}{\hspace*{-0.2em}}{
+	{\href {mailto:\Email}{\texttt \Email}}
+	{\hspace*{0.5em}}
+	|
+	{\hspace*{0.5em}}
+	{\texttt \Phone}
+}
+
+{\vspace*{-2.0em}}
+\begin{resume}
+\section{Education}
+
+{\bf M.Sc.}, Computer Science \hfill Sept. 2015 - (expected) Jun. 2018\\
+Sichuan University \hfill Chengdu
+
+{\bf B.Eng.}, Software Engineering \hfill Sept. 2011 - Jun. 2015\\
+Sichuan University \hfill Chengdu
+
+\section{Employment}
+
+\def \HAXMlink {\href {https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager} {Intel{\textregistered} HAXM}}
+
+{\bf GPU Arch Intern} \hfill Mar. 2017 - present\\
+NVIDIA SMart Arch Team \hfill Shanghai\\
+{\fixedwidth\{C++, Python, Bash, Perl\}}
+
+\begin{itemize}
+	\item[-] {Develop stream multiprocessor SMart for Turing architecture}
+	\item[-] {Branch SMart CUDA lib from Volta architecture to Turing architecture}
+	\item[-] {Help deliver traces for Volta/Turing architecture}
+	\item[-] {Automate traces comparing/refreshing with Python script}
+\end{itemize}
+
+{\bf Engineering Intern} \hfill Sept. 2016 - Feb. 2017\\
+Intel Open Source Technology Center \hfill Beijing\\
+{\fixedwidth\{C++, Bash, Python, git\}}
+
+\begin{itemize}
+	\item{Develop {\HAXMlink}}, help release HAXM 6.0.6, 6.1.0
+	\item{Port HAXM to QEMU upstream that enhance QEMU performance}
+	\item{Maintain AOSP (Android Open Source Project) continuous integration workflow}
+\end{itemize}
+
+\section{Technical}
+
+Functional Programming
+
+\begin{itemize}
+	\item{Solution to {\it University of Pennsylvania CIS 194: Introduction to Haskell} \\
+	{\fixedwidth\{Haskell\}} \hfill \url{https://github.com/WentaoZero/UPenn-CIS-194-2015}}
+	\item{Solution to {\it Structure and Interpretation of Computer Programs}\\
+	{\fixedwidth\{Lisp\}} \hfill \url{https://github.com/WentaoZero/SICP-Solution}}
+\end{itemize}
+
+GPU Programming \& Parallel Programming
+
+\begin{itemize}
+	\item{Solution to {\it Udacity CS 344: Intro to Parallel Programming} \\
+	{\fixedwidth\{CUDA\}} \hfill \url{https://github.com/WentaoZero/Intro-to-Parallel-Programming}}
+\end{itemize}
+
+Programming Language \& Tool
+
+\begin{itemize}
+\item{\fixedwidth Python, Lisp, Haskell, C, C++, CUDA}
+\item{\fixedwidth Unix shell, git, Vim}
+\end{itemize}
+
+\section{Misc.}
+
+GitHub \hfill {\url{https://github.com/WentaoZero}}
+
+{\vspace*{-0.5em}}
+
+Stack Overflow \hfill {\url{https://stackoverflow.com/users/3853711/Wentao}}
+
+\end{resume}
+
+\end{document}

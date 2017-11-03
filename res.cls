@@ -275,7 +275,7 @@
 % unless you really understand all of this but it is not
 % hard.  Either way, it can only be executed once
 %
-\def\sectionfont{\large \scshape}
+\def\sectionfont{\Large \scshape}
 \newdimen\sectionwidth
 \newskip\sectionskip
 \newdimen\resumewidth
@@ -772,10 +772,12 @@
 % with everything in the left of its column
 
 \@secpenalty = -500
-\topmargin 0.3in
+%\topmargin 0.2in
+\topmargin 0.2in
+
 \headheight 0pt
 \headsep 0pt
-\textheight 9in
+\textheight 10in
 \parindent 0pt
 \oddsidemargin 0pt
 \evensidemargin 0pt
